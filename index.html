@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/7d49488804.js" crossorigin="anonymous"></script>
+    <title>Jagdeep Singh | Web Developer</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="navLeft">
+                <a href="index.html" class="logo"><i class="fab fa-node-js"></i></a>
+                <a id="menuClose" href="javascript:void(0)" onclick="closeMenu()">
+                    <i class="far fa-times-circle"></i>
+                </a>
+            </div>
+            <div class="navMid">
+                <a href="index.html">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#certification">Certification</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+            <div class="navRight">
+                <a onclick="changeMode()"><i id="changeIcon" class="fas fa-moon"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MenuButton- -->
+    <div id="mobileBar" onclick="openMenu()">
+        <i class="fas fa-bars">Menu</i>
+    </div>
+
+    <!-- FixedSocialIcons  & Jump to TOP -->
+    <div class="fixedSocialIcon">
+        <a href="https://www.linkedin.com/in/jagdeepsinghguraya/">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/jagdeepsinghguraya">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/your_jagdeep/">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:jagdeepguraya1313@gmail.com?subject=You're%20Hired&body=I'm%20interested%20in%20your%20Profile">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/+919009993455?text=I%27d%20like%20to%20hire%20you%20!">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Go To Top -->
+    <a href="#"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Home -->
+    <main id="home">
+        <section class="homecontent">
+            <div class="homeleft">
+                <img src="assets/images/home.png" alt="Home image">
+            </div>
+            <div class="homeright">
+                <p>Hello,</p>
+                <p>I'm <span>Jagdeep Singh</span></p>
+                <p>I am Web Developer & Designer.</p>
+                <button onclick="document.location='#contact'" class="btn btnhire">
+                    <p>Hire Me</p>
+                </button>
+                <button class="btn"><a href="assets/resume/Resume_JagdeepSingh.pdf" download="Resume_JagdeepSingh">
+                        <p> Download CV</p>
+                    </a></button>
+            </div>
+        </section>
+        <section id="aboutme">
+            <div class="aboutleft">
+                <img src="assets/images/head1.jpg" alt="">
+            </div>
+            <div class="aboutright">
+                <p>"I'm <b>Jagdeep Singh</b>, and I design websites for small businesses. While I'm based in Indore
+                    (India), I
+                    help build websites for people all over the world."</p>
+                <p>I Strive to design solutions that improve the <b> quality of life</b> of millions of people.</p>
+                <button onclick="document.location='#contact'" class="button btnhire">
+                    <p>Hire Me</p>
+                </button>
+                <button class="button btncv"><a href="assets/resume/Resume_JagdeepSingh.pdf"
+                        download="Resume_JagdeepSingh">
+                        <p>Download CV</p>
+                    </a></button>
+            </div>
+        </section>
+    </main>
+
+    <!-- skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skillcontent">
+            <div class="leftskill">
+                <div class="box">
+                    <p>Although highly skilled in numerous things, i'm a dynamic and multi skilled Web designer with
+                        a passion for creating innovative projects, regardless of the brief.</p>
+                </div>
+            </div>
+            <div class="rightskill">
+                <div class="subSkill">
+                    <h3>React Tools </h3>
+                    <p>React.js</p>
+                </div>
+                <div class="subSkill">
+                    <h3>Front-End Web</h3>
+                    <p>HTML, CSS, SASS, JavaScript & jQuery</p>
+                </div>
+                <div class="subSkill">
+                    <h3>Programming Language</h3>
+                    <p>C/C++, JAVA</p>
+                </div>
+
+                <div class="subSkill">
+                    <h3>Version Control System</h3>
+                    <p>Git</p>
+                </div>
+                <div class="subSkill">
+                    <h3>tools</h3>
+                    <p>Babel, Webpack, photoshop</p>
+                </div>
+                <div class="subSkill">
+                    <h3>Data structures and algorithms</h3>
+                </div>
+                <div class="subSkill">
+                    <h3>Rdbms ( MySQL)</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experienceContent">
+            <!-- internship -->
+            <div class="SubExperienceContent">
+                <h2>Internship</h2>
+                <div class="internship">
+                    <h3>SVM InfoTech, Gwalior ( 2 Months )</h3>
+                    <dl>
+                        <dt>Designed and developed a website for workshop purpose for elementary students.</dt>
+                        <dd> - 10-12 Pages Interconnected.</dd>
+
+                        <dt>Technology used/Learned</dt>
+                        <dd> - HTML, CSS, JavaScript and AJAX.</dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- Projects -->
+            <div class="SubExperienceContent">
+                <h2>Projects</h2>
+                <div class="internship">
+                    <h3>Smart Parking System</h3>
+                    <dl>
+                        <dt>lead a team of three engineering students to execute the blueprint and coordinate the
+                            production of website. The purpose of the project was to help citizens to find nearby Vacant
+                            parking spot and to save there time and efforts. Designed and Coded a multifunctional
+                            website with a complex ordering system. Where citizen of the city could check near possible
+                            empty parking slot and book it online.</dt>
+                        <dt>Technology used/Learned</dt>
+                        <dd> - HTML, CSS, JavaScript and MySQL.</dd>
+                    </dl>
+                    <a href="#">link here</a>
+                </div>
+                <div class="internship">
+                    <h3>Driver Drowsiness Detection</h3>
+                    <dl>
+                        <dt>The purpose of the project was to contribute to the study of the driver behaviour while
+                            driving, through the development and evaluation of a drowsiness detection system. Designed
+                            and Coded a multifunctional website with a complex monitoring system. Drowsiness was a
+                            complex phenomenon that indicates whether the driver's alert and alert level is lacking.
+                        </dt>
+                        <dt>Technology used/Learned</dt>
+                        <dd> - HTML, CSS, SASS, PHP and JavaScript.</dd>
+                    </dl>
+                    <a href="#">link here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        
+        <h2>Projects</h2>
+        <div class="projectsContent">
+            <div class="projectsDetails">
+                <div class="aboutProject">
+                    <img src="assets/images/JS.png" alt="">
+                </div>
+                <h5>JavaScript Projects</h5>
+                <a href="jsProject.html">All Projects </a>
+            </div>
+            <!-- <div class="projectsDetails">
+                <div class="aboutProject">
+                    <img src="assets/images/p3.png" alt="">
+                </div>
+                <h5>Project Name</h5>
+                <a href="http://google.com">Source Code</a>
+            </div>
+            <div class="projectsDetails">
+                <div class="aboutProject">
+                    <img src="assets/images/p3.png" alt="">
+                </div>
+                <h5>Project Name</h5>
+                <a href="http://google.com">Source Code</a>
+            </div> -->
+            <!-- <div class="projectsDetails">
+                <div class="aboutProject">
+                    <img src="assets/images/p3.png" alt="">
+                </div>
+                <h5>Project Name</h5>
+                <a href="http://google.com">Source Code</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- certification -->
+    <section id="certification">
+        <h2>Certification</h2>
+        <div class="projectsContent">
+            <div class="projectsDetails">
+                <div class="aboutProject">
+                    <img id="ds" src="assets/images/ds.jpg" alt="">
+                </div>
+                <h5>Data Structure</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div id="contactContent">
+            <div class="leftcontact">
+                <i class="fas fa-phone-alt"></i>
+                <h4>+91 90099 93455</h4>
+            </div>
+            <div class="midcontact">
+                <i class="far fa-envelope"></i>
+                <h4>
+                    <a href="mailto:jagdeepcy@gmail.com">Jagdeepcy@gmail.com</a>
+                </h4>
+            </div>
+            <div class="rightcontact">
+                <i class="fas fa-map-marker-alt"></i>
+                <address>
+                    Lig Square <br>
+                    Indore, Madhya Pradesh <br>
+                    Pin code : 452011
+                </address>
+            </div>
+        </div>
+        <div class="contactSocial">
+
+            <a href="https://www.linkedin.com/in/jagdeepsinghguraya/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/jagdeepsinghguraya">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/your_jagdeep/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:jagdeepguraya1313@gmail.com?subject=You're%20Hired&body=I'm%20interested%20in%20your%20Profile">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/+919009993455?text=I%27d%20like%20to%20hire%20you%20!">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <h3>Jagdeep Singh | Created with <i class="far fa-heart"></i></h3>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
